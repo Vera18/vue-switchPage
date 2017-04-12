@@ -71,6 +71,7 @@
   }
   .content-item{
     padding:10px 10px;
-    border-bottom:1px solid #cdcdcd
+    border-bottom:1px solid #cdcdcd;
+    font-size: 1.4rem;
   }
 </style>
