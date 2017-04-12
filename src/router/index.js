@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/pages/home.vue'
-import joke from '@/pages/joke.vue'
-import jokeimg from '@/pages/joke-img.vue'
+import home from '../pages/home.vue'
+import joke from '../pages/joke.vue'
+import jokeimg from '../pages/joke-img.vue'
+
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/home',
       component: home
     },
     {
